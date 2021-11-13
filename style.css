@@ -11,12 +11,10 @@ header {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  color: #faf9f9;
 }
 
-h1 {
-  color: #4a4545;
-  font-size: 5rem;
+.header {
+  color: white;
 }
 
 .butt {
@@ -34,5 +32,10 @@ h1 {
 .butt:hover {
   background: -webkit-gradient(linear, left top, left bottom, from(#C08497), to(#F7AF9D));
   background: linear-gradient(#C08497, #F7AF9D);
+}
+
+h1 {
+  color: #4a4545;
+  font-size: 5rem;
 }
 /*# sourceMappingURL=style.css.map */
