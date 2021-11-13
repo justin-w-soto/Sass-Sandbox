@@ -1,0 +1,17 @@
+@import './variables';
+@import './header';
+
+.butt {
+    background:$primaryBtn;
+    font-size: 3rem;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5%, 5%, rgb(14, 13, 13);
+    &:hover {
+        background: linear-gradient(#C08497, #F7AF9D )
+    }
+
+}
+
