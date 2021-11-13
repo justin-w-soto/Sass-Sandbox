@@ -1,0 +1,50 @@
+
+.inputGroup {
+    width: 32rem;
+    margin: 1rem;
+}
+
+.modal {
+    
+    display: flex;
+    background: #FFF4F4;
+    column-count: 4;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 20rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 5rem;
+    border: solid 2px rgba(206, 205, 205, 0.342);
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px rgb(197, 197, 197);
+    width: 35%;
+}
+ 
+ .innerGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+    
+    
+.butt {
+    background:$primaryBtn;
+    font-size: 2rem;
+    width: 15rem;
+    height: 6rem;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.551);
+    
+    &:hover {
+        background: linear-gradient(#C08497, #F7AF9D )
+    }
+
+}
