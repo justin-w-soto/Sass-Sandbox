@@ -1,0 +1,38 @@
+header {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B97988), to(#D2CBD0));
+  background: linear-gradient(#B97988, #D2CBD0);
+  height: 35vh;
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: #faf9f9;
+}
+
+h1 {
+  color: #4a4545;
+  font-size: 5rem;
+}
+
+.butt {
+  background: -webkit-gradient(linear, left top, left bottom, from(#B97988), to(#D2CBD0));
+  background: linear-gradient(#B97988, #D2CBD0);
+  font-size: 3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 5%, 5%, #0e0d0d;
+          box-shadow: 5%, 5%, #0e0d0d;
+}
+
+.butt:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C08497), to(#F7AF9D));
+  background: linear-gradient(#C08497, #F7AF9D);
+}
+/*# sourceMappingURL=style.css.map */
