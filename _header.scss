@@ -1,18 +1,18 @@
-@mixin flexCenter {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
+// @mixin flexCenter {
+//     display: flex;
+//     justify-content: center;
+//     align-content: center;
+// }
 
-header {
-    background: linear-gradient(#B97988, #D2CBD0);
-    height: 35vh;
-    padding: 1rem;
-    @include flexCenter();
+// header {
+//     background: linear-gradient(#B97988, #D2CBD0);
+//     height: 35vh;
+//     padding: 1rem;
+//     @include flexCenter();
     
 
-}
+// }
 
-.header {
-    color: white;
-}
+// .header {
+//     color: white;
+// }

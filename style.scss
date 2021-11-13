@@ -1,6 +1,10 @@
 @import './variables';
 @import './header';
 
+body {
+    background: #FFF4F4;
+}
+
 .butt {
     background:$primaryBtn;
     font-size: 3rem;
@@ -8,7 +12,7 @@
     border: none;
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 5%, 5%, rgb(14, 13, 13);
+    box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.551);
     &:hover {
         background: linear-gradient(#C08497, #F7AF9D )
     }
@@ -16,8 +20,46 @@
 }
 
 h1 {
-    color: rgb(74, 69, 69);
-    font-size: 5rem;
-  
+    background: linear-gradient(left, #D3D1D5, #B97988);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    
+    width: 655px;
+    height: 358px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 82px;
+    line-height: 123px;
+    letter-spacing: -0.02em;
+
+    mix-blend-mode: normal;
+   
+ }
+
+ p {
+
+    width: 709.07px;
+    height: 517.52px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    
+    color: #625A5A;
+ }
+
+ input {
+     width: 32rem;
+     height: 6rem;
+     border-radius:1rem;
+     border: none;
+     box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.551);
+
  }
 
